@@ -1,4 +1,4 @@
-package solid.l.good;
+package solid.l.Example1.good;
 
 // Liskov Substitution Principle
 public class Main {
