@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463c5848-dfd1-4296-a73a-97278391d18f" name="Changes" comment="" />
+    <list default="true" id="463c5848-dfd1-4296-a73a-97278391d18f" name="Changes" comment="examples added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Youtube/IChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Youtube/ISubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Youtube/SubscriberImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Youtube/YoutubeChannelImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/eCmmerce/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/eCmmerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/eCmmerce/PayByCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/eCmmerce/PayByPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/eCmmerce/PayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/simUDuck/Squeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,19 +53,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.solid.d.Example1.good.Main">
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.s.Main" />
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.eCmmerce.Demo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.s.*" />
+          <option name="PATTERN" value="Strategy.eCmmerce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,11 +75,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.s.Main" />
+      <option name="MAIN_CLASS_NAME" value="Observer.Youtube.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.s.*" />
+          <option name="PATTERN" value="Observer.Youtube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strategy.simUDuck.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.simUDuck.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.simUDuck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="solid.d.Example1.good.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="solid.l.Example1.bad.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.l.Example1.bad.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solid.l.Example1.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Strategy.simUDuck.Main" />
         <item itemvalue="Application.solid.d.Example1.good.Main" />
         <item itemvalue="Application.solid.l.Example1.good.Main" />
-        <item itemvalue="Application.solid.l.Example1.bad.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +145,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720680835113</updated>
     </task>
+    <task id="LOCAL-00001" summary="examples added">
+      <created>1723044097357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723044097357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="examples added" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
