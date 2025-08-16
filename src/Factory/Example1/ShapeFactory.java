@@ -7,6 +7,7 @@ public class ShapeFactory {
             case "square" -> new Square();
             case "rectangle" -> new Rectangle();
             case "cylinder" -> new Cylinder();
+            default -> new Circle();
         };
 
     }

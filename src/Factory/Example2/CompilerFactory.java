@@ -6,6 +6,7 @@ public class CompilerFactory {
             case "cpp" -> new CppCompiler();
             case "java" -> new JavaCompiler();
             case "python" -> new PythonCompiler();
+            default -> throw new IllegalArgumentException("Unsupported Language");
         };
     }
 }
